@@ -7,6 +7,7 @@ import re
 from sklearn import datasets
 from sklearn.ensemble import RandomForestRegressor
 
+st.set_option('deprecation.showPyplotGlobalUse', False)
 st.write("""
 # Boston House Price Prediction App
 
