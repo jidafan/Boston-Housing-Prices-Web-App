@@ -7,7 +7,7 @@ import re
 from sklearn import datasets
 from sklearn.ensemble import RandomForestRegressor
 
-st.set_option('deprecation.showPyplotGlobalUse', False)
+st.set_option('deprecation.showPyplotGlobalUse', False) #Removes warning message when launching webapp
 st.write("""
 # Boston House Price Prediction App
 
